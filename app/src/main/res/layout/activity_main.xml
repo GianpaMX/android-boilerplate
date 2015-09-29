@@ -6,7 +6,7 @@
     tools:context="mx.segundamano.android.ui.activity.MainActivity">
 
     <EditText
-        android:id="@+id/numberEditText"
+        android:id="@+id/counterEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -20,7 +20,7 @@
         android:id="@+id/minusButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/numberEditText"
+        android:layout_below="@+id/counterEditText"
         android:layout_centerHorizontal="true"
         android:text="-"
         android:textSize="@dimen/text_size" />
@@ -29,7 +29,7 @@
         android:id="@+id/plusButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/numberEditText"
+        android:layout_above="@+id/counterEditText"
         android:layout_centerHorizontal="true"
         android:text="+"
         android:textSize="@dimen/text_size" />
